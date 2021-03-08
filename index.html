@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+ <html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RSSchool CV</title>
+    <meta name="description" content="ShikiLe CV">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class = "CV">
+        <h1>Curriculum Vitae</h1>
+        <h2>Elena Karpovich</h2>
+        </div>
+        <div>
+            <img src='main.jpg' alt='picture' class='photo'>
+        </div>
+    </header>
+    <div class="main-information">
+    <main>
+        <ul>
+            <li>
+                <h3 class='summary'>Summary:</h3>
+                <p class='main why'>In my adolescence I was interested in linux distributions. So now I'm trying to learn software
+                    developmentt. And I decided to start with frontend-development.</p>
+            </li>
+            <li>
+                <h3 class='skills'>Skills:</h3>
+                <p class='main skills'>HTML, CSS.</p>
+            </li>
+            <li>
+                <h3 class='examples'>Code examples:</h3>
+                <pre>
+                    <code>
+                        function squareDigits(num){
+                            let array = num.toString().split('');
+                            let arrOfNum = array.map(x => parseInt(x));
+                            let arrOfSquare =  arrOfNum.map(x => Math.pow(x, 2));
+                            let stringSq = arrOfSquare.join('');
+                            return Number.parseInt(stringSq);                       
+                        }
+                    </code>
+                </pre>
+            </li>
+            <li>
+                <h3 class='education'>Education:</h3>
+               <p class='main education'>HTML Academy, Codecademy.</p>
+            </li>
+            <li>
+                <h3 class='english'>English</h3>
+                <p class='main english'>B1. I studied English at school and university.  Now I do it on my own from time to time to refresh my skills.</p>
+            </li>
+        </ul>
+    </main>
+    <aside>
+        <img src='aside.gif' alt='cat' class='cat' height="250" width="250">
+    </aside> 
+    </div>
+    <footer>
+        <div>
+        <h2 class='contact'><br>Contact info:</h2>
+        <p class='connection'>
+            <br><span>Telegram:</span> l_lillac
+            <br><span>Email:</span> mariajane1897@gmail.com
+        </p>
+        </div>
+        <div  class="year">
+            <p><span>2021</span></p>
+        </div>
+        <div   class="links">
+            <a href="https://github.com/ShikiLe" target="_blank"><img src="git2.png" alt="github" width="80" height="80"></a>
+            <a href="https://rs.school/js/" target="_blank"><img src="rss.svg" width="89" height="89" alt="rss"></a>
+        </div>
+        
+    </footer>
+</body>
+</html>
