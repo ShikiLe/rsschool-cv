@@ -1,4 +1,4 @@
-## Elena Kerpovich
+## Elena Karpovich
 ### Telegram: l_lillac; email: mariajane1897@gmail.com
 1. In my adolescence I was interested in linux distributions. So now I'm trying to learn software developmentt. And I decided to start with frontend-development.
 2. HTML, CSS.
