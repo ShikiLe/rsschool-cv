@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-information {
+    display: flex;
+}
+main {
+    flex-grow: 5;
+}
+aside {
+    text-align: right;
+    align-self: flex-end;
+    flex-grow: 1;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+header {
+    height: 230px;
+    width: 100%;
+    background-color:  #660066;
+    box-shadow: 0 44px 13px 0px rgba(156, 87, 204, 0.5);
+    display: flex;
+}
+.CV {
+    flex-grow: 4;
+}
+.photo {
+    width: 185px;
+    height: 245px;
+    border-radius: 10px;
+    border: solid 2px white;
+    text-align: right;
+    margin: 15px 30px;
+}
+h1, h2 {
+    color: white;
+    font-size: 95px;
+    letter-spacing: 18px;
+    text-align: center;
+}
+h2 {
+    font-size: 80px;
+}
+body {
+    background-color:  #ffe6ff;
+    height: 100%;
+}
+footer {
+    background-color: #4d004d;
+    display: flex;
+    box-shadow: 0 -44px 13px 5px rgba(156, 87, 204, 0.5);
+    justify-content: space-between;
+	width: 100%;
+	height: 15%;
+}
+h3 {
+    font-size: 40px;
+    letter-spacing: 18px;
+    text-align: left;
+}
+ul {
+    margin: 30px 20px 20px 20px;
+    list-style-type: circle;
+}
+
+.contact {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding-left: 10px;
+}
+.connection {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    }
+
+li {
+    padding: 15px;
+    margin-left: 40px;
+}
+.main {
+    font-size: 25px;
+    padding-top: 5px;
+}
+.year {
+    align-self: flex-end;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.links {
+     align-self: center;
+     padding-right: 10px;
+}
+
